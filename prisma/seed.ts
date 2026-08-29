@@ -16,6 +16,7 @@
  * recreated per parent so re-running never duplicates or crashes.
  */
 
+import "dotenv/config";
 import { PrismaClient } from "@prisma/client";
 import { INDUSTRIES } from "./seed-data/taxonomy";
 import { SKILLS, WORK_STYLE_TAGS, CERTIFICATIONS } from "./seed-data/pools";
@@ -531,6 +532,13 @@ async function main() {
       isActive: true,
     },
   });
+
+  // Rebuilding questions below deletes and recreates them, which would
+  // otherwise fail once real attempts exist (QuizAnswer -> QuizQuestion is a
+  // required FK). Clearing this quiz's attempts first lets `db:seed` stay
+  // safely re-runnable at any point; QuizAnswer/QuizResult/QuizResultCareer/
+  // AiGeneration all cascade-delete from QuizAttempt per the schema.
+  await prisma.quizAttempt.deleteMany({ where: { quizId: quiz.id } });
 
   let totalQuestions = 0;
   let totalOptions = 0;

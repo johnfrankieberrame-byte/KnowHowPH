@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 38% 97%;
+    --foreground: 222 25% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 25% 12%;
+
+    --primary: 168 72% 30%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 28 88% 54%;
+    --secondary-foreground: 222 25% 12%;
+
+    --accent: 168 45% 92%;
+    --accent-foreground: 168 72% 22%;
+
+    --muted: 40 20% 93%;
+    --muted-foreground: 222 12% 40%;
+
+    --destructive: 0 72% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 152 55% 32%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 45%;
+    --warning-foreground: 0 0% 100%;
+
+    --border: 222 15% 87%;
+    --input: 222 15% 87%;
+    --ring: 168 72% 30%;
+
+    --radius: 0.75rem;
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .dark {
+    --background: 222 28% 8%;
+    --foreground: 40 20% 96%;
+
+    --card: 222 24% 11%;
+    --card-foreground: 40 20% 96%;
+
+    --primary: 168 60% 46%;
+    --primary-foreground: 222 28% 8%;
+
+    --secondary: 28 85% 58%;
+    --secondary-foreground: 222 28% 8%;
+
+    --accent: 168 30% 18%;
+    --accent-foreground: 168 60% 80%;
+
+    --muted: 222 20% 16%;
+    --muted-foreground: 222 10% 65%;
+
+    --destructive: 0 62% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 152 45% 45%;
+    --success-foreground: 222 28% 8%;
+
+    --warning: 38 85% 55%;
+    --warning-foreground: 222 28% 8%;
+
+    --border: 222 18% 20%;
+    --input: 222 18% 20%;
+    --ring: 168 60% 46%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground;
+  }
+}
+
+@layer utilities {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+}

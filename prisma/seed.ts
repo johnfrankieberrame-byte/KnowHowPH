@@ -23,6 +23,14 @@ import { SKILLS, WORK_STYLE_TAGS, CERTIFICATIONS } from "./seed-data/pools";
 import { CAREERS } from "./seed-data/careers";
 import { SCHOOLS, PROGRAMS } from "./seed-data/schools";
 import { QUIZ_SECTIONS } from "./seed-data/quiz";
+import {
+  STAFF,
+  PAYERS,
+  REASON_CODES,
+  PAYER_ASSIGNMENTS,
+  PAYER_ALIASES,
+  TASKS,
+} from "./seed-data/call-log";
 
 const prisma = new PrismaClient();
 
@@ -598,18 +606,173 @@ async function main() {
   );
 
   // -----------------------------------------------------------------
+  // 10. Ops: EOD call-log reference data (staff, payers, reason codes,
+  //     payer assignments, payer-name alias/merge audit trail, open tasks)
+  // -----------------------------------------------------------------
+  const normalizePayerName = (name: string) => name.trim().toLowerCase();
+
+  const payerIdByName = new Map<string, string>();
+  for (const p of PAYERS) {
+    const payer = await prisma.payer.upsert({
+      where: { name: p.name },
+      update: {
+        payerGroup: p.payerGroup,
+        phone: p.phone,
+        altPhone: p.altPhone,
+        extension: p.extension,
+        ivrNotes: p.ivrNotes,
+      },
+      create: {
+        name: p.name,
+        payerGroup: p.payerGroup,
+        phone: p.phone,
+        altPhone: p.altPhone,
+        extension: p.extension,
+        ivrNotes: p.ivrNotes,
+      },
+    });
+    payerIdByName.set(normalizePayerName(payer.name), payer.id);
+  }
+  console.log(`Upserted ${payerIdByName.size} payers.`);
+
+  // Alias -> canonical map, for resolving legacy/free-text spellings that
+  // appear in Payer Assignments / Task below (and in the historical import).
+  const canonicalNameByAlias = new Map<string, string>();
+  for (const a of PAYER_ALIASES) {
+    if (a.canonicalPayer) canonicalNameByAlias.set(normalizePayerName(a.aliasText), a.canonicalPayer);
+  }
+
+  /** Resolve a possibly-legacy payer name to a Payer id, creating a new
+   * canonical Payer as a last resort so a supervisor can review/merge it
+   * later rather than silently dropping the row. */
+  async function resolvePayerId(name: string | null | undefined, fallbackGroup?: string | null) {
+    if (!name) return null;
+    const key = normalizePayerName(name);
+    let id = payerIdByName.get(key);
+    if (id) return id;
+
+    const canonical = canonicalNameByAlias.get(key);
+    if (canonical) {
+      id = payerIdByName.get(normalizePayerName(canonical));
+      if (id) return id;
+    }
+
+    console.warn(`  ! No canonical payer match for "${name}" — creating it as a new payer for review.`);
+    const created = await prisma.payer.upsert({
+      where: { name },
+      update: {},
+      create: { name, payerGroup: fallbackGroup ?? "Needs review" },
+    });
+    payerIdByName.set(key, created.id);
+    return created.id;
+  }
+
+  for (const a of PAYER_ALIASES) {
+    const payerId = await resolvePayerId(a.canonicalPayer, a.payerGroup);
+    if (!payerId) continue;
+    await prisma.payerAlias.upsert({
+      where: { aliasText: a.aliasText },
+      update: { payerId, rowsAffected: a.rowsAffected, changeType: a.changeType },
+      create: { payerId, aliasText: a.aliasText, rowsAffected: a.rowsAffected, changeType: a.changeType },
+    });
+  }
+  console.log(`Upserted ${PAYER_ALIASES.length} payer aliases.`);
+
+  let reasonOrder = 0;
+  const reasonCodeIdByCode = new Map<string, string>();
+  for (const r of REASON_CODES) {
+    const reasonCode = await prisma.reasonCode.upsert({
+      where: { code: r.code },
+      update: { description: r.description, order: reasonOrder },
+      create: { code: r.code, description: r.description, order: reasonOrder },
+    });
+    reasonCodeIdByCode.set(r.code, reasonCode.id);
+    reasonOrder += 1;
+  }
+  console.log(`Upserted ${reasonCodeIdByCode.size} reason codes.`);
+
+  const agentIdByInitials = new Map<string, string>();
+  const agentIdByFullName = new Map<string, string>();
+  for (const s of STAFF) {
+    const agent = await prisma.opsAgent.upsert({
+      where: { initials: s.initials },
+      update: { fullName: s.fullName, active: s.active },
+      create: { initials: s.initials, fullName: s.fullName, active: s.active },
+    });
+    agentIdByInitials.set(s.initials, agent.id);
+    agentIdByFullName.set(s.fullName, agent.id);
+  }
+  console.log(`Upserted ${agentIdByInitials.size} ops agents.`);
+
+  let assignmentCount = 0;
+  for (const a of PAYER_ASSIGNMENTS) {
+    const agentId = agentIdByFullName.get(a.agentFullName);
+    if (!agentId) {
+      console.warn(`  ! Payer assignment for unknown agent "${a.agentFullName}" skipped.`);
+      continue;
+    }
+    const payerId = await resolvePayerId(a.payer, a.payerGroup);
+    if (!payerId) continue;
+    await prisma.payerAssignment.upsert({
+      where: { agentId_payerId: { agentId, payerId } },
+      update: { accountCount: a.accountCount },
+      create: { agentId, payerId, accountCount: a.accountCount },
+    });
+    assignmentCount += 1;
+  }
+  console.log(`Upserted ${assignmentCount} payer assignments.`);
+
+  const taskStatusMap: Record<string, "OPEN" | "IN_PROGRESS" | "DONE" | "CANCELLED"> = {
+    Open: "OPEN",
+    "In Progress": "IN_PROGRESS",
+    Done: "DONE",
+    Cancelled: "CANCELLED",
+  };
+  let taskCount = 0;
+  for (const t of TASKS) {
+    const existing = await prisma.followUpTask.findFirst({ where: { mattRef: t.mattRef } });
+    if (existing) continue; // no natural unique key beyond mattRef; don't duplicate on re-seed
+    const payerId = await resolvePayerId(t.payer, t.payerGroup);
+    const assignedToId = t.assignedTo ? agentIdByFullName.get(t.assignedTo) ?? null : null;
+    await prisma.followUpTask.create({
+      data: {
+        mattRef: t.mattRef,
+        payerId,
+        status: taskStatusMap[t.status] ?? "OPEN",
+        assignedToId,
+        notes: t.notes,
+      },
+    });
+    taskCount += 1;
+  }
+  console.log(`Created ${taskCount} follow-up tasks.`);
+
+  // -----------------------------------------------------------------
   // Summary
   // -----------------------------------------------------------------
-  const [industryCount, categoryCount, careerCount, skillCount, schoolCount, programCount, questionCount] =
-    await Promise.all([
-      prisma.industry.count(),
-      prisma.careerCategory.count(),
-      prisma.career.count(),
-      prisma.skill.count(),
-      prisma.school.count(),
-      prisma.program.count(),
-      prisma.quizQuestion.count(),
-    ]);
+  const [
+    industryCount,
+    categoryCount,
+    careerCount,
+    skillCount,
+    schoolCount,
+    programCount,
+    questionCount,
+    opsAgentCount,
+    payerCount,
+    reasonCodeCount,
+  ] = await Promise.all([
+    prisma.industry.count(),
+    prisma.careerCategory.count(),
+    prisma.career.count(),
+    prisma.skill.count(),
+    prisma.school.count(),
+    prisma.program.count(),
+    prisma.quizQuestion.count(),
+    prisma.opsAgent.count(),
+    prisma.payer.count(),
+    prisma.reasonCode.count(),
+  ]);
 
   console.log("\nSeed summary:");
   console.log(`  Industries:      ${industryCount}`);
@@ -619,6 +782,9 @@ async function main() {
   console.log(`  Schools:         ${schoolCount}`);
   console.log(`  Programs:        ${programCount}`);
   console.log(`  Quiz questions:  ${questionCount}`);
+  console.log(`  Ops agents:      ${opsAgentCount}`);
+  console.log(`  Payers:          ${payerCount}`);
+  console.log(`  Reason codes:    ${reasonCodeCount}`);
   console.log("\nSeed complete.");
 }
 

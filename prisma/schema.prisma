@@ -159,6 +159,23 @@ enum AiGenerationStatus {
   BLOCKED
 }
 
+enum OpsRole {
+  AGENT
+  SUPERVISOR
+}
+
+enum CallOutcome {
+  COMPLETED
+  UNSUCCESSFUL
+}
+
+enum FollowUpStatus {
+  OPEN
+  IN_PROGRESS
+  DONE
+  CANCELLED
+}
+
 // ---------------------------------------------------------------------------
 // Identity
 // ---------------------------------------------------------------------------
@@ -176,6 +193,7 @@ model User {
   quizAttempts QuizAttempt[]
   quizResults  QuizResult[]
   auditLogs    AdminAuditLog[]
+  opsAgent     OpsAgent?
 
   @@index([role])
 }
@@ -740,4 +758,155 @@ model AdminAuditLog {
   @@index([actorUserId])
   @@index([entityType, entityId])
   @@index([createdAt])
+}
+
+// ---------------------------------------------------------------------------
+// Ops: EOD call log (claims follow-up call tracking, replaces EOD_REPORT.xlsx)
+// ---------------------------------------------------------------------------
+
+/// A claims-team member who logs payer calls. Linked to a platform User once
+/// they sign in with a matching email (see lib/auth/ops.ts); can also be
+/// pre-provisioned by a supervisor before the person ever logs in.
+model OpsAgent {
+  id        String   @id @default(cuid())
+  userId    String?  @unique
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  initials  String   @unique
+  fullName  String
+  email     String?  @unique
+  opsRole   OpsRole  @default(AGENT)
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  calls            CallLogEntry[]    @relation("CallLogAgent")
+  loggedCalls      CallLogEntry[]    @relation("CallLogLoggedBy")
+  assignedTasks    FollowUpTask[]
+  payerAssignments PayerAssignment[]
+
+  @@index([opsRole])
+  @@index([active])
+}
+
+/// Canonical payer (insurance company / plan) picklist — the single source of
+/// truth agents dial against, so free-text payer names never re-enter the log.
+model Payer {
+  id         String   @id @default(cuid())
+  name       String   @unique
+  payerGroup String
+  phone      String?
+  altPhone   String?
+  extension  String?
+  ivrNotes   String?
+  active     Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  aliases     PayerAlias[]
+  calls       CallLogEntry[]
+  tasks       FollowUpTask[]
+  assignments PayerAssignment[]
+
+  @@index([payerGroup])
+  @@index([active])
+}
+
+/// Audit trail of retired/free-text payer spellings normalized onto a
+/// canonical Payer, so a historical rename is always traceable and reversible.
+model PayerAlias {
+  id           String   @id @default(cuid())
+  payerId      String
+  payer        Payer    @relation(fields: [payerId], references: [id], onDelete: Cascade)
+  aliasText    String   @unique
+  rowsAffected Int      @default(0)
+  changeType   String?
+  createdAt    DateTime @default(now())
+
+  @@index([payerId])
+}
+
+/// The controlled vocabulary of "why a call failed," required whenever a
+/// CallLogEntry.outcome is UNSUCCESSFUL.
+model ReasonCode {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  description String
+  active      Boolean  @default(true)
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  calls CallLogEntry[]
+
+  @@index([active])
+}
+
+/// One row per payer call — the Daily Log. legacyKey preserves the original
+/// spreadsheet dedup key (e.g. "MIV-1") for the one-off historical import so
+/// re-running it never creates duplicates.
+model CallLogEntry {
+  id              String       @id @default(cuid())
+  callDate        DateTime     @db.Date
+  agentId         String
+  agent           OpsAgent     @relation("CallLogAgent", fields: [agentId], references: [id])
+  mattRef         String
+  payerId         String?
+  payer           Payer?       @relation(fields: [payerId], references: [id])
+  payerAsEntered  String?
+  outcome         CallOutcome
+  durationMinutes Float?
+  reasonCodeId    String?
+  reasonCode      ReasonCode?  @relation(fields: [reasonCodeId], references: [id])
+  notes           String?
+  loggedById      String
+  loggedBy        OpsAgent     @relation("CallLogLoggedBy", fields: [loggedById], references: [id])
+  legacyKey       String?      @unique
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  followUpTasks FollowUpTask[]
+
+  @@index([agentId, callDate])
+  @@index([payerId])
+  @@index([mattRef])
+  @@index([callDate])
+  @@index([outcome])
+}
+
+/// Account-level follow-up, optionally spun off from a call that needs
+/// further action.
+model FollowUpTask {
+  id             String         @id @default(cuid())
+  mattRef        String
+  payerId        String?
+  payer          Payer?         @relation(fields: [payerId], references: [id])
+  status         FollowUpStatus @default(OPEN)
+  assignedToId   String?
+  assignedTo     OpsAgent?      @relation(fields: [assignedToId], references: [id])
+  callLogEntryId String?
+  callLogEntry   CallLogEntry?  @relation(fields: [callLogEntryId], references: [id], onDelete: SetNull)
+  notes          String?
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+  resolvedAt     DateTime?
+
+  @@index([status])
+  @@index([assignedToId])
+  @@index([mattRef])
+}
+
+/// Who owns which payers, and roughly how many accounts — supervisor-managed,
+/// used to route new claims to the right agent.
+model PayerAssignment {
+  id           String   @id @default(cuid())
+  agentId      String
+  agent        OpsAgent @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  payerId      String
+  payer        Payer    @relation(fields: [payerId], references: [id], onDelete: Cascade)
+  accountCount Int      @default(0)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@unique([agentId, payerId])
+  @@index([payerId])
 }

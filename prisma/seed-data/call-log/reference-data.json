@@ -1,0 +1,2859 @@
+{
+  "staff": [
+    {
+      "initials": "AKG",
+      "fullName": "Angelie Kate Gallardo",
+      "active": true
+    },
+    {
+      "initials": "CGG",
+      "fullName": "Clarissa Galamiton Granada",
+      "active": true
+    },
+    {
+      "initials": "CDS",
+      "fullName": "Clint D. Seragon",
+      "active": true
+    },
+    {
+      "initials": "DMD",
+      "fullName": "Delzon M. Delfin",
+      "active": true
+    },
+    {
+      "initials": "FBP",
+      "fullName": "Fatima B. Petua",
+      "active": true
+    },
+    {
+      "initials": "FAC",
+      "fullName": "Fauziah A. Cafe",
+      "active": true
+    },
+    {
+      "initials": "GSB",
+      "fullName": "Gwendelyn Salupan Bolanda",
+      "active": true
+    },
+    {
+      "initials": "JMO",
+      "fullName": "Joey Osorio",
+      "active": true
+    },
+    {
+      "initials": "JDP",
+      "fullName": "John David Poloyapoy",
+      "active": true
+    },
+    {
+      "initials": "KMF",
+      "fullName": "Kenneth Mate Fuentes",
+      "active": true
+    },
+    {
+      "initials": "MIV",
+      "fullName": "Ma. Irene Velasco",
+      "active": true
+    },
+    {
+      "initials": "NAB",
+      "fullName": "Nicole Ann Balbuena",
+      "active": true
+    },
+    {
+      "initials": "RMS",
+      "fullName": "Ronna Mae Sayman",
+      "active": true
+    },
+    {
+      "initials": "SPQ",
+      "fullName": "Steve Paolo Quimbo",
+      "active": true
+    },
+    {
+      "initials": "VMM",
+      "fullName": "VJ Manogura Marturillas",
+      "active": true
+    }
+  ],
+  "payers": [
+    {
+      "name": "AARP Medicare Advantage",
+      "payerGroup": "Other Medicare Advantage",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "AARP Medicare Complete",
+      "payerGroup": "Other Medicare Advantage",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "AMGP Georgia Managed Care Co Inc",
+      "payerGroup": "Other / Commercial",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "APWU / UHSS",
+      "payerGroup": "Other / Commercial",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Aetna",
+      "payerGroup": "Aetna",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Aetna Better Health",
+      "payerGroup": "Aetna",
+      "phone": "1-866-827-2710",
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Aetna Better Health of MD",
+      "payerGroup": "Aetna",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Aetna Better Health of VA",
+      "payerGroup": "Aetna",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Aetna Choice POS II",
+      "payerGroup": "Aetna",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Aetna Medicare",
+      "payerGroup": "Aetna",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Aetna PPO POS",
+      "payerGroup": "Aetna",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Alterwood Medicare Advantage",
+      "payerGroup": "Other Medicare Advantage",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Ambetter",
+      "payerGroup": "Centene",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Ambetter DE",
+      "payerGroup": "Centene",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "AmeriHealth",
+      "payerGroup": "AmeriHealth Caritas",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "AmeriHealth Caritas Delaware",
+      "payerGroup": "AmeriHealth Caritas",
+      "phone": "1-855-707-5818",
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "AmeriHealth Caritas Next",
+      "payerGroup": "AmeriHealth Caritas",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "AmeriHealth District of Columbia",
+      "payerGroup": "AmeriHealth Caritas",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Anthem",
+      "payerGroup": "Anthem",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Anthem BCBS",
+      "payerGroup": "Anthem",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Anthem HP LLC",
+      "payerGroup": "Anthem",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Anthem Healthkeepers",
+      "payerGroup": "Anthem",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Anthem Healthplans VA",
+      "payerGroup": "Anthem",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Anthem Medicaid",
+      "payerGroup": "Anthem",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Ault Primetime Health Plan HMO",
+      "payerGroup": "Other Medicare Advantage",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "BCBS Boeing PPO",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": "800-972-8088",
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "BCBS ChristianaCare",
+      "payerGroup": "CareFirst",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "BCBS FEP",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "BCBS Medicare Advantage",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "BCBS Out-of-State PPO",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "BCBS Small Group",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "BCBS Tennessee",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "BCBS of Delaware",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": "877-228-7268",
+      "altPhone": "1-800-241-5704",
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "BCBS of MD",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "BCBS of NJ",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Blue Cross",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": "1-877-228-7268",
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Blue Cross Acute",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Blue Cross Idaho",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Blue Cross of PA",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "BlueChoice",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Bravo Health",
+      "payerGroup": "Other Medicare Advantage",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "CCHP",
+      "payerGroup": "Other / Commercial",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "CHAMPVA",
+      "payerGroup": "Veterans Affairs",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "CHPW",
+      "payerGroup": "Community Health Plan of WA",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "CHPW Commercial",
+      "payerGroup": "Community Health Plan of WA",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "CHPW Medicaid HMO",
+      "payerGroup": "Community Health Plan of WA",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Capital Blue Cross",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "CareFirst Dual Prime",
+      "payerGroup": "CareFirst",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Carefirst Administrators",
+      "payerGroup": "CareFirst",
+      "phone": "855-635-4564",
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Carefirst Advantage PPO",
+      "payerGroup": "CareFirst",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Carefirst BCBS",
+      "payerGroup": "CareFirst",
+      "phone": "1-877-228-7268",
+      "altPhone": "800-842-5975",
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Carefirst Community Health Plan",
+      "payerGroup": "CareFirst",
+      "phone": "1-800-730-8543",
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Carefirst Medicare Advantage",
+      "payerGroup": "CareFirst",
+      "phone": "833-939-4103",
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Carefirst Medicare Advantage-DSNP",
+      "payerGroup": "CareFirst",
+      "phone": "1-800-730-8543",
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Carelon BH MD Medicaid",
+      "payerGroup": "Carelon",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Carelon Behavioral Health",
+      "payerGroup": "Carelon",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Caritas VIP Medicare Dual",
+      "payerGroup": "AmeriHealth Caritas",
+      "phone": "(800) 521-6007",
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Childrens National Medical Center",
+      "payerGroup": "Facility (not a payer)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Christiana Care Delaware Campus",
+      "payerGroup": "Facility (not a payer)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Cigna",
+      "payerGroup": "Cigna",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Cigna Healthspring",
+      "payerGroup": "Cigna",
+      "phone": "1-800-244-6224",
+      "altPhone": "800-511-6943",
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Cigna Lifesource Transplant Network",
+      "payerGroup": "Cigna",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Cigna Medicare",
+      "payerGroup": "Cigna",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Cigna Open Access Plus",
+      "payerGroup": "Cigna",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Coordinated Care Apple Health WA",
+      "payerGroup": "Community Health Plan of WA",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "DE Medicaid Limited Plan",
+      "payerGroup": "Medicaid / State",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Delaware First Health",
+      "payerGroup": "Centene",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Devoted Health",
+      "payerGroup": "Other Medicare Advantage",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Emblem Health",
+      "payerGroup": "Other Medicare Advantage",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Employer Health",
+      "payerGroup": "Other / Commercial",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Fidelis Care",
+      "payerGroup": "Wellcare",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "GEHA",
+      "payerGroup": "UnitedHealth Group",
+      "phone": "(800) 821-6136",
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "HPR / AETNA",
+      "payerGroup": "Aetna",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Health Now Administrative Services (HNAS)",
+      "payerGroup": "Other / Commercial",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Health Options",
+      "payerGroup": "Health Options",
+      "phone": "1-844-325-6251",
+      "altPhone": "1-855-401-8251",
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Health Options Medicare Dual",
+      "payerGroup": "Health Options",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "HealthFirst NY",
+      "payerGroup": "Health Options",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Healthcare Medicare",
+      "payerGroup": "Medicare (traditional)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Highmark",
+      "payerGroup": "Highmark",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Highmark BCBS DE",
+      "payerGroup": "Highmark",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Humana",
+      "payerGroup": "Humana",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Humana Medicare",
+      "payerGroup": "Humana",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Humana Medicare Gold Plus",
+      "payerGroup": "Humana",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Humana Medicare PPO",
+      "payerGroup": "Humana",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "IBC Administrators",
+      "payerGroup": "Other / Commercial",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "IBC Medicare 65",
+      "payerGroup": "Other / Commercial",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "IPA Medicare Alt - Independent Clinics WA",
+      "payerGroup": "UnitedHealth Group",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "IPA Medicare Alt - Optum Care Network WA (Humana)",
+      "payerGroup": "UnitedHealth Group",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "IPA Medicare Alt - Optum Care Network WA (UHC West)",
+      "payerGroup": "UnitedHealth Group",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Independence Administrators",
+      "payerGroup": "Other / Commercial",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Jai Medical Systems",
+      "payerGroup": "Jai Medical Systems",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Jefferson Health Medicare Advantage",
+      "payerGroup": "Jefferson Health",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Jefferson Health Plans",
+      "payerGroup": "Jefferson Health",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Johns Hopkins Advantage",
+      "payerGroup": "Johns Hopkins",
+      "phone": "1-877-293-5325",
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Kaiser Permanente",
+      "payerGroup": "Kaiser",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Kaiser WA",
+      "payerGroup": "Kaiser",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Kaiser WA Group Health HMO",
+      "payerGroup": "Kaiser",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Kaiser WA Group Health Medicare",
+      "payerGroup": "Kaiser",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Keycare",
+      "payerGroup": "Other Medicare Advantage",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Keycare Advantage",
+      "payerGroup": "Other Medicare Advantage",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Keystone First",
+      "payerGroup": "Keystone First",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "MCR",
+      "payerGroup": "Medicare (traditional)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "MMA",
+      "payerGroup": "Medicaid / State",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "MMM Caminamos Juntos",
+      "payerGroup": "Other Medicare Advantage",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "MMM Healthcare, LLC",
+      "payerGroup": "Other Medicare Advantage",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "MMO Medicare",
+      "payerGroup": "Other Medicare Advantage",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Maryland Medical Assistance",
+      "payerGroup": "Medicaid / State",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Maryland Medical Center",
+      "payerGroup": "Facility (not a payer)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Maryland Physicians Care",
+      "payerGroup": "Medicaid / State",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "MedStar Family Choice",
+      "payerGroup": "Medicaid / State",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Medical Mutual Ohio",
+      "payerGroup": "Other / Commercial",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Medicare",
+      "payerGroup": "Medicare (traditional)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Medicare A",
+      "payerGroup": "Medicare (traditional)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Medicare B",
+      "payerGroup": "Medicare (traditional)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Memorial Hospital at Easton",
+      "payerGroup": "Facility (not a payer)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Merchant Benefits Administration",
+      "payerGroup": "Other / Commercial",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Mercy Employees Blue Choice",
+      "payerGroup": "BCBS / Blue Cross",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Meritain Health",
+      "payerGroup": "Aetna",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Molina Apple Health WA",
+      "payerGroup": "Molina",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Molina Healthcare",
+      "payerGroup": "Molina",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Molina Healthcare of VA",
+      "payerGroup": "Molina",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Molina Medicare Complete Care",
+      "payerGroup": "Molina",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Molina WA Marketplace",
+      "payerGroup": "Molina",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "MyCare Caresource Medicare",
+      "payerGroup": "Other / Commercial",
+      "phone": "800-488-0134",
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Optum",
+      "payerGroup": "Optum",
+      "phone": "(800) 888-1965",
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Optum Care",
+      "payerGroup": "Optum",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Optum Maryland",
+      "payerGroup": "Optum",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Premera Preferred",
+      "payerGroup": "Premera",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Premera WA PPO ALT",
+      "payerGroup": "Premera",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Priority Partners",
+      "payerGroup": "Johns Hopkins",
+      "phone": "1-800-654-9728",
+      "altPhone": "800-654-9728",
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Quantum Health",
+      "payerGroup": "Other / Commercial",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Regence BCBS WA POS",
+      "payerGroup": "Regence",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Regence BCBS WA PPO",
+      "payerGroup": "Regence",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Regence Uniform Medical Plan",
+      "payerGroup": "Regence",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Regence WA Medicare PPO",
+      "payerGroup": "Regence",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Sinai Hospital Baltimore",
+      "payerGroup": "Facility (not a payer)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Swedish Hospital First Hill Campus",
+      "payerGroup": "Facility (not a payer)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "UHC Community Plan PA",
+      "payerGroup": "UnitedHealth Group",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "UHC Medicare",
+      "payerGroup": "UnitedHealth Group",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "UHC Surest",
+      "payerGroup": "UnitedHealth Group",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "UHC West Medicare",
+      "payerGroup": "UnitedHealth Group",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "UMR",
+      "payerGroup": "UnitedHealth Group",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "USFHP",
+      "payerGroup": "Veterans Affairs",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Unite Here Health Trust Aetna POS",
+      "payerGroup": "Aetna",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "United Healthcare (UHC)",
+      "payerGroup": "UnitedHealth Group",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "United Healthcare Community Plan",
+      "payerGroup": "UnitedHealth Group",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "United Shared Services",
+      "payerGroup": "Other / Commercial",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "University of Maryland Medical Center",
+      "payerGroup": "Facility (not a payer)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "University of Maryland Rehabilitation & Orthopaedic Institute",
+      "payerGroup": "Facility (not a payer)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Unspecified \u2014 needs review",
+      "payerGroup": "Unspecified",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "VA Optum",
+      "payerGroup": "Veterans Affairs",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "VA Perry Point Medical",
+      "payerGroup": "Facility (not a payer)",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Veterans Administration",
+      "payerGroup": "Veterans Affairs",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Wellcare",
+      "payerGroup": "Wellcare",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Wellcare Medicare Advantage",
+      "payerGroup": "Wellcare",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Wellcare by Delaware First Health",
+      "payerGroup": "Wellcare",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Wellcare by Fidelis Care",
+      "payerGroup": "Wellcare",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Wellpoint",
+      "payerGroup": "Wellpoint",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Wellpoint / Carelon",
+      "payerGroup": "Wellpoint",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Wellpoint Maryland Inc",
+      "payerGroup": "Wellpoint",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "Wellpoint Washington",
+      "payerGroup": "Wellpoint",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    },
+    {
+      "name": "\u0081TEAMSTERS WELFARE TRUST PREMERA PPO",
+      "payerGroup": "Other / Commercial",
+      "phone": null,
+      "altPhone": null,
+      "extension": null,
+      "ivrNotes": null
+    }
+  ],
+  "reasonCodes": [
+    {
+      "code": "Account / information issue",
+      "description": "Member not found, missing info on the worksheet, callback required per payer SOP."
+    },
+    {
+      "code": "Call disconnected",
+      "description": "Dropped by the rep, the IVR, or the line, at any point in the call."
+    },
+    {
+      "code": "Could not reach a live rep (IVR barrier)",
+      "description": "Stuck in the IVR, sent to a survey, or blocked by a passcode prompt."
+    },
+    {
+      "code": "Internal system / Zoom issue",
+      "description": "Our side failed \u2014 Zoom dropped, system update, worksheet would not load."
+    },
+    {
+      "code": "Non-call time",
+      "description": "Time that was not a payer call \u2014 meetings, training."
+    },
+    {
+      "code": "Other",
+      "description": "Only when nothing above fits. Always explain in Notes."
+    },
+    {
+      "code": "Payer office closed",
+      "description": "Dialled outside the payer\u2019s hours, or the office was closed for training."
+    },
+    {
+      "code": "Payer system issue",
+      "description": "The payer said their own system was down."
+    },
+    {
+      "code": "Phone number issue",
+      "description": "Number inactive, wrong, or permanently busy."
+    },
+    {
+      "code": "Wrong department / routed to another payer",
+      "description": "The account is handled by a different department, vendor or payer than the one dialled."
+    }
+  ],
+  "payerAssignments": [
+    {
+      "agentFullName": "Clarissa Galamiton Granada",
+      "payer": "Aetna",
+      "payerGroup": "Aetna",
+      "accountCount": 3
+    },
+    {
+      "agentFullName": "Clarissa Galamiton Granada",
+      "payer": "Alterwood Medicare Advantage",
+      "payerGroup": "Other Medicare Advantage",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "Clarissa Galamiton Granada",
+      "payer": "Ambetter DE",
+      "payerGroup": "Centene",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Clarissa Galamiton Granada",
+      "payer": "Anthem",
+      "payerGroup": "Anthem",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Clarissa Galamiton Granada",
+      "payer": "Anthem",
+      "payerGroup": "Anthem",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "Clarissa Galamiton Granada",
+      "payer": "Carefirst Administrators",
+      "payerGroup": "CareFirst",
+      "accountCount": 3
+    },
+    {
+      "agentFullName": "Clarissa Galamiton Granada",
+      "payer": "Carefirst Community Health Plan",
+      "payerGroup": "CareFirst",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "Clarissa Galamiton Granada",
+      "payer": "Carefirst Community Health Plan",
+      "payerGroup": "CareFirst",
+      "accountCount": 3
+    },
+    {
+      "agentFullName": "Clarissa Galamiton Granada",
+      "payer": "HealthFirst NY",
+      "payerGroup": "Health Options",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Clarissa Galamiton Granada",
+      "payer": "IBC Administrators",
+      "payerGroup": "Other / Commercial",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Clarissa Galamiton Granada",
+      "payer": "Johns Hopkins Advantage",
+      "payerGroup": "Johns Hopkins",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Clarissa Galamiton Granada",
+      "payer": "Keycare Advantage",
+      "payerGroup": "Other Medicare Advantage",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Clarissa Galamiton Granada",
+      "payer": "Meritain Health",
+      "payerGroup": "Aetna",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Gwendelyn Salupan Bolanda",
+      "payer": "AARP Medicare Complete",
+      "payerGroup": "Other Medicare Advantage",
+      "accountCount": 3
+    },
+    {
+      "agentFullName": "Gwendelyn Salupan Bolanda",
+      "payer": "AMGP Georgia Managed Care Co Inc",
+      "payerGroup": "Other / Commercial",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Gwendelyn Salupan Bolanda",
+      "payer": "Aetna",
+      "payerGroup": "Aetna",
+      "accountCount": 3
+    },
+    {
+      "agentFullName": "Gwendelyn Salupan Bolanda",
+      "payer": "Aetna Medicare Ppo (60054)",
+      "payerGroup": "Aetna",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Gwendelyn Salupan Bolanda",
+      "payer": "AmeriHealth Caritas Next",
+      "payerGroup": "AmeriHealth Caritas",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Gwendelyn Salupan Bolanda",
+      "payer": "Blue Cross",
+      "payerGroup": "BCBS / Blue Cross",
+      "accountCount": 4
+    },
+    {
+      "agentFullName": "Gwendelyn Salupan Bolanda",
+      "payer": "Blue Cross Acute",
+      "payerGroup": "BCBS / Blue Cross",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Gwendelyn Salupan Bolanda",
+      "payer": "Carefirst BCBS",
+      "payerGroup": "CareFirst",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "Gwendelyn Salupan Bolanda",
+      "payer": "Caritas VIP Medicare Dual",
+      "payerGroup": "AmeriHealth Caritas",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Gwendelyn Salupan Bolanda",
+      "payer": "Humana Medicare",
+      "payerGroup": "Humana",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "Gwendelyn Salupan Bolanda",
+      "payer": "IPA Medicare Alt - Optum Care Network WA (Humana)",
+      "payerGroup": "UnitedHealth Group",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Gwendelyn Salupan Bolanda",
+      "payer": "UHC Surest",
+      "payerGroup": "UnitedHealth Group",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Gwendelyn Salupan Bolanda",
+      "payer": "Wellpoint Maryland Inc",
+      "payerGroup": "Wellpoint",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "Aetna",
+      "payerGroup": "Aetna",
+      "accountCount": 3
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "Alterwood Medicare Advantage",
+      "payerGroup": "Other Medicare Advantage",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "Amerihealth Caritas PA",
+      "payerGroup": "AmeriHealth Caritas",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "BCBS FEP",
+      "payerGroup": "BCBS / Blue Cross",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "BCBS NCAS BC",
+      "payerGroup": "BCBS / Blue Cross",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "BCBS Out-of-State PPO",
+      "payerGroup": "BCBS / Blue Cross",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "BCBS Out-of-State PPO",
+      "payerGroup": "BCBS / Blue Cross",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "Carefirst Community Health Plan",
+      "payerGroup": "CareFirst",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "HMSA PPO",
+      "payerGroup": "Other / Commercial",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "Humana Medicare PPO",
+      "payerGroup": "Humana",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "Keystone First",
+      "payerGroup": "Keystone First",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "State Farm Auto",
+      "payerGroup": "Other / Commercial",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "UMR",
+      "payerGroup": "UnitedHealth Group",
+      "accountCount": 3
+    },
+    {
+      "agentFullName": "Joey Osorio",
+      "payer": "Wellpoint Maryland Inc",
+      "payerGroup": "Wellpoint",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "Aetna",
+      "payerGroup": "Aetna",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "Aetna",
+      "payerGroup": "Aetna",
+      "accountCount": 3
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "AmeriHealth Caritas Delaware",
+      "payerGroup": "AmeriHealth Caritas",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "BCBS FEP",
+      "payerGroup": "BCBS / Blue Cross",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "BCBS of Delaware",
+      "payerGroup": "BCBS / Blue Cross",
+      "accountCount": 5
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "CareFirst BCBS",
+      "payerGroup": "CareFirst",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "Carefirst Medicare Advantage-DSNP",
+      "payerGroup": "CareFirst",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "Carelon Behavioral Health",
+      "payerGroup": "Carelon",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "Cigna",
+      "payerGroup": "Cigna",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "Delaware First Health",
+      "payerGroup": "Centene",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "Meritain Health",
+      "payerGroup": "Aetna",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "Molina Apple Health WA",
+      "payerGroup": "Molina",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "Premera WA PPO ALT",
+      "payerGroup": "Premera",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "Kenneth Mate Fuentes",
+      "payer": "UMR",
+      "payerGroup": "UnitedHealth Group",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "VJ Manogura Marturillas",
+      "payer": "Aetna",
+      "payerGroup": "Aetna",
+      "accountCount": 3
+    },
+    {
+      "agentFullName": "VJ Manogura Marturillas",
+      "payer": "Anthem",
+      "payerGroup": "Anthem",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "VJ Manogura Marturillas",
+      "payer": "Anthem Medicaid",
+      "payerGroup": "Anthem",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "VJ Manogura Marturillas",
+      "payer": "BCBS FEP",
+      "payerGroup": "BCBS / Blue Cross",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "VJ Manogura Marturillas",
+      "payer": "BCBS Medicare Advantage",
+      "payerGroup": "BCBS / Blue Cross",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "VJ Manogura Marturillas",
+      "payer": "Blue Cross",
+      "payerGroup": "BCBS / Blue Cross",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "VJ Manogura Marturillas",
+      "payer": "Carefirst BCBS",
+      "payerGroup": "CareFirst",
+      "accountCount": 3
+    },
+    {
+      "agentFullName": "VJ Manogura Marturillas",
+      "payer": "Carefirst Medicare Advantage",
+      "payerGroup": "CareFirst",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "VJ Manogura Marturillas",
+      "payer": "Cigna",
+      "payerGroup": "Cigna",
+      "accountCount": 3
+    },
+    {
+      "agentFullName": "VJ Manogura Marturillas",
+      "payer": "GEHA",
+      "payerGroup": "UnitedHealth Group",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "VJ Manogura Marturillas",
+      "payer": "Health Options",
+      "payerGroup": "Health Options",
+      "accountCount": 2
+    },
+    {
+      "agentFullName": "VJ Manogura Marturillas",
+      "payer": "Highmark BCBS DE",
+      "payerGroup": "Highmark",
+      "accountCount": 1
+    },
+    {
+      "agentFullName": "VJ Manogura Marturillas",
+      "payer": "VETERANS ADMIN - VETERANS ADMIN PUGET SOUND",
+      "payerGroup": "Other / Commercial",
+      "accountCount": 2
+    }
+  ],
+  "payerAliases": [
+    {
+      "aliasText": "UHC",
+      "canonicalPayer": "United Healthcare (UHC)",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 31,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "United Healthcare",
+      "canonicalPayer": "United Healthcare (UHC)",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 17,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Healthspring Medicare",
+      "canonicalPayer": "Cigna Healthspring",
+      "payerGroup": "Cigna",
+      "rowsAffected": 11,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "AETNA MEDICARE - AETNA MDCR HMO",
+      "canonicalPayer": "Aetna Medicare",
+      "payerGroup": "Aetna",
+      "rowsAffected": 10,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Keystone First PA",
+      "canonicalPayer": "Keystone First",
+      "payerGroup": "Keystone First",
+      "rowsAffected": 10,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "IPA MEDICARE ALT FFS PDGM - OPTUM CARE NETWK WA MDCR ALT UHC WEST",
+      "canonicalPayer": "IPA Medicare Alt - Optum Care Network WA (UHC West)",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 9,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "REGENCE - REGENCE BCBS WA PPO",
+      "canonicalPayer": "Regence BCBS WA PPO",
+      "payerGroup": "Regence",
+      "rowsAffected": 9,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "COMMUNITY HLTH PLAN CHPW MEDICAID HMO - COMM HLTH PLAN CHPW APPLE HEALTH WA",
+      "canonicalPayer": "CHPW Medicaid HMO",
+      "payerGroup": "Community Health Plan of WA",
+      "rowsAffected": 8,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "CaritasVIPMedicareDual",
+      "canonicalPayer": "Caritas VIP Medicare Dual",
+      "payerGroup": "AmeriHealth Caritas",
+      "rowsAffected": 8,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "KAISER WA GROUP HEALTH MEDICARE - KAISER WA GROUP HEALTH MDCR HMO",
+      "canonicalPayer": "Kaiser WA Group Health Medicare",
+      "payerGroup": "Kaiser",
+      "rowsAffected": 8,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "MOLINA MEDICAID HMO - MOLINA APPLE HEALTH WA",
+      "canonicalPayer": "Molina Apple Health WA",
+      "payerGroup": "Molina",
+      "rowsAffected": 8,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Amerihealth",
+      "canonicalPayer": "AmeriHealth",
+      "payerGroup": "AmeriHealth Caritas",
+      "rowsAffected": 7,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "Cigna health spring",
+      "canonicalPayer": "Cigna Healthspring",
+      "payerGroup": "Cigna",
+      "rowsAffected": 7,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "CIGNA - CIGNA OPEN ACCESS PLUS",
+      "canonicalPayer": "Cigna Open Access Plus",
+      "payerGroup": "Cigna",
+      "rowsAffected": 6,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "OPTUM CARE",
+      "canonicalPayer": "Optum Care",
+      "payerGroup": "Optum",
+      "rowsAffected": 6,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "CIGNA",
+      "canonicalPayer": "Cigna",
+      "payerGroup": "Cigna",
+      "rowsAffected": 5,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "CIGNA OPEN ACCESS PLUS",
+      "canonicalPayer": "Cigna Open Access Plus",
+      "payerGroup": "Cigna",
+      "rowsAffected": 5,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "COMMUNITY HLTH PLAN CHPW MEDICAID HMO",
+      "canonicalPayer": "CHPW Medicaid HMO",
+      "payerGroup": "Community Health Plan of WA",
+      "rowsAffected": 5,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "CareFirst BCBS",
+      "canonicalPayer": "Carefirst BCBS",
+      "payerGroup": "CareFirst",
+      "rowsAffected": 5,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "Carefirst BCBS - Carefirst Community Health Plan",
+      "canonicalPayer": "Carefirst Community Health Plan",
+      "payerGroup": "CareFirst",
+      "rowsAffected": 5,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "HUMANA MEDICARE - HUMANA MDCR HMO GOLD PLUS",
+      "canonicalPayer": "Humana Medicare Gold Plus",
+      "payerGroup": "Humana",
+      "rowsAffected": 5,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Healthspring",
+      "canonicalPayer": "Cigna Healthspring",
+      "payerGroup": "Cigna",
+      "rowsAffected": 5,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Aetna MedicareHMO",
+      "canonicalPayer": "Aetna Medicare",
+      "payerGroup": "Aetna",
+      "rowsAffected": 4,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "AetnaBetterHealth MD",
+      "canonicalPayer": "Aetna Better Health of MD",
+      "payerGroup": "Aetna",
+      "rowsAffected": 4,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Carelon",
+      "canonicalPayer": "Carelon Behavioral Health",
+      "payerGroup": "Carelon",
+      "rowsAffected": 4,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "HealthSpring",
+      "canonicalPayer": "Cigna Healthspring",
+      "payerGroup": "Cigna",
+      "rowsAffected": 4,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "IPA MEDICARE ALT - OPTUM CARE NETWK WA MDCR ALT HUMANA",
+      "canonicalPayer": "IPA Medicare Alt - Optum Care Network WA (Humana)",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 4,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "REGENCE - REGENCE UNIFORM MED PLAN",
+      "canonicalPayer": "Regence Uniform Medical Plan",
+      "payerGroup": "Regence",
+      "rowsAffected": 4,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Amerihealth Caritas DE",
+      "canonicalPayer": "AmeriHealth Caritas Delaware",
+      "payerGroup": "AmeriHealth Caritas",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "BCBS - BCBS OOS PPO",
+      "canonicalPayer": "BCBS Out-of-State PPO",
+      "payerGroup": "BCBS / Blue Cross",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "BCBS BOEING PPO",
+      "canonicalPayer": "BCBS Boeing PPO",
+      "payerGroup": "BCBS / Blue Cross",
+      "rowsAffected": 3,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "BCBS Small group",
+      "canonicalPayer": "BCBS Small Group",
+      "payerGroup": "BCBS / Blue Cross",
+      "rowsAffected": 3,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "CHPW MEDICAID HMO",
+      "canonicalPayer": "CHPW Medicaid HMO",
+      "payerGroup": "Community Health Plan of WA",
+      "rowsAffected": 3,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "COORDINATED CARE APPLE HEALTH WA",
+      "canonicalPayer": "Coordinated Care Apple Health WA",
+      "payerGroup": "Community Health Plan of WA",
+      "rowsAffected": 3,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "COORDINATED CARE MEDICAID HMO - COORDINATED CARE APPLE HEALTH WA",
+      "canonicalPayer": "Coordinated Care Apple Health WA",
+      "payerGroup": "Community Health Plan of WA",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "CareFirst",
+      "canonicalPayer": "Carefirst BCBS",
+      "payerGroup": "CareFirst",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Carefirst",
+      "canonicalPayer": "Carefirst BCBS",
+      "payerGroup": "CareFirst",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Cigna / Healthspring",
+      "canonicalPayer": "Cigna Healthspring",
+      "payerGroup": "Cigna",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Cigna Healthcare",
+      "canonicalPayer": "Cigna",
+      "payerGroup": "Cigna",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "HUMANA MEDICARE",
+      "canonicalPayer": "Humana Medicare",
+      "payerGroup": "Humana",
+      "rowsAffected": 3,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "Health Options - HealthOpt MedicareDual",
+      "canonicalPayer": "Health Options Medicare Dual",
+      "payerGroup": "Health Options",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "HealthOpt MedicareDual",
+      "canonicalPayer": "Health Options Medicare Dual",
+      "payerGroup": "Health Options",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Humana Gold Plus - HUMANA MEDICARE - HUMANA MDCR HMO GOLD PLUS",
+      "canonicalPayer": "Humana Medicare Gold Plus",
+      "payerGroup": "Humana",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Jai Medical System",
+      "canonicalPayer": "Jai Medical Systems",
+      "payerGroup": "Jai Medical Systems",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "KAISER WA GROUP HEALTH PLM ALT - KAISER WA GROUP HEALTH HMO ALT",
+      "canonicalPayer": "Kaiser WA Group Health HMO",
+      "payerGroup": "Kaiser",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Medstar Family Choice",
+      "canonicalPayer": "MedStar Family Choice",
+      "payerGroup": "Medicaid / State",
+      "rowsAffected": 3,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "Optum MD",
+      "canonicalPayer": "Optum Maryland",
+      "payerGroup": "Optum",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "PREMERA WA ALT - PREMERA WA PPO ALT",
+      "canonicalPayer": "Premera WA PPO ALT",
+      "payerGroup": "Premera",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "meritain",
+      "canonicalPayer": "Meritain Health",
+      "payerGroup": "Aetna",
+      "rowsAffected": 3,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Aetna Medicare Advantage",
+      "canonicalPayer": "Aetna Medicare",
+      "payerGroup": "Aetna",
+      "rowsAffected": 2,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Aetna/Aetna PPO POS",
+      "canonicalPayer": "Aetna PPO POS",
+      "payerGroup": "Aetna",
+      "rowsAffected": 2,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "AmeriHealthCaritasNext",
+      "canonicalPayer": "AmeriHealth Caritas Next",
+      "payerGroup": "AmeriHealth Caritas",
+      "rowsAffected": 2,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "BCBS - ACO BOEING BCBS PPO",
+      "canonicalPayer": "BCBS Boeing PPO",
+      "payerGroup": "BCBS / Blue Cross",
+      "rowsAffected": 2,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "COMMUNITY HLTH PLAN CHPW",
+      "canonicalPayer": "CHPW",
+      "payerGroup": "Community Health Plan of WA",
+      "rowsAffected": 2,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Carefirst Administrator",
+      "canonicalPayer": "Carefirst Administrators",
+      "payerGroup": "CareFirst",
+      "rowsAffected": 2,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Carefirst Advantage PPO, Inc.",
+      "canonicalPayer": "Carefirst Advantage PPO",
+      "payerGroup": "CareFirst",
+      "rowsAffected": 2,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Health Spring",
+      "canonicalPayer": "Cigna Healthspring",
+      "payerGroup": "Cigna",
+      "rowsAffected": 2,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Jefferson Health Plan",
+      "canonicalPayer": "Jefferson Health Plans",
+      "payerGroup": "Jefferson Health",
+      "rowsAffected": 2,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Meritain",
+      "canonicalPayer": "Meritain Health",
+      "payerGroup": "Aetna",
+      "rowsAffected": 2,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "REGENCE BCBS WA PPO",
+      "canonicalPayer": "Regence BCBS WA PPO",
+      "payerGroup": "Regence",
+      "rowsAffected": 2,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "REGENCE MEDICARE - REGENCE WA MDCR PPO",
+      "canonicalPayer": "Regence WA Medicare PPO",
+      "payerGroup": "Regence",
+      "rowsAffected": 2,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "UHC Medicare Dual Complete",
+      "canonicalPayer": "UHC Medicare",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 2,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "United Healthcare (UHC) United Healthcare (UHC)",
+      "canonicalPayer": "United Healthcare (UHC)",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 2,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "bcbs of md",
+      "canonicalPayer": "BCBS of MD",
+      "payerGroup": "BCBS / Blue Cross",
+      "rowsAffected": 2,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "AETNA - AETNA CHOICE POS II",
+      "canonicalPayer": "Aetna Choice POS II",
+      "payerGroup": "Aetna",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "AMERIGROUP MEDICAID HMO - AMERIGROUP APPLE HEALTH WA- Wellpoint Washington",
+      "canonicalPayer": "Wellpoint Washington",
+      "payerGroup": "Wellpoint",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Aetna MeritainHealth",
+      "canonicalPayer": "Meritain Health",
+      "payerGroup": "Aetna",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Alterwood",
+      "canonicalPayer": "Alterwood Medicare Advantage",
+      "payerGroup": "Other Medicare Advantage",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Anthem BlueCross Blueshield",
+      "canonicalPayer": "Anthem BCBS",
+      "payerGroup": "Anthem",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Anthem HP, LLC",
+      "canonicalPayer": "Anthem HP LLC",
+      "payerGroup": "Anthem",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Anthem MCD",
+      "canonicalPayer": "Anthem Medicaid",
+      "payerGroup": "Anthem",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Anthem of VA",
+      "canonicalPayer": "Anthem Healthplans VA",
+      "payerGroup": "Anthem",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Ault Primetime Health Plan Hmo",
+      "canonicalPayer": "Ault Primetime Health Plan HMO",
+      "payerGroup": "Other Medicare Advantage",
+      "rowsAffected": 1,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "BCBS - BCBS BOEING PPO",
+      "canonicalPayer": "BCBS Boeing PPO",
+      "payerGroup": "BCBS / Blue Cross",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "BLUE CROSS ID - BLUE CROSS IDAHO",
+      "canonicalPayer": "Blue Cross Idaho",
+      "payerGroup": "BCBS / Blue Cross",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Blue Card out-of-state",
+      "canonicalPayer": "BCBS Out-of-State PPO",
+      "payerGroup": "BCBS / Blue Cross",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Blue Cross / Heath Option",
+      "canonicalPayer": "Health Options",
+      "payerGroup": "Health Options",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Bluechoice",
+      "canonicalPayer": "BlueChoice",
+      "payerGroup": "BCBS / Blue Cross",
+      "rowsAffected": 1,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "CAREFIRST",
+      "canonicalPayer": "Carefirst BCBS",
+      "payerGroup": "CareFirst",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "COMMUNITY HEALTH PLAN OF WA COMMERCIAL - CHPW WA CASCADE CARE SELECT IFP EXCHANGE EPO",
+      "canonicalPayer": "CHPW Commercial",
+      "payerGroup": "Community Health Plan of WA",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "COORDINATED CARE MEDICAID HMO - COORDINATED CARE APPLE HEALTH PLAN",
+      "canonicalPayer": "Coordinated Care Apple Health WA",
+      "payerGroup": "Community Health Plan of WA",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Called HlthOpt Medicare Dual",
+      "canonicalPayer": "Health Options Medicare Dual",
+      "payerGroup": "Health Options",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Carefirst BCBS ND50",
+      "canonicalPayer": "Carefirst BCBS",
+      "payerGroup": "CareFirst",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Cigna HealthSpring",
+      "canonicalPayer": "Cigna Healthspring",
+      "payerGroup": "Cigna",
+      "rowsAffected": 1,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "Community care department",
+      "canonicalPayer": "Unspecified \u2014 needs review",
+      "payerGroup": "Unspecified",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Contacted Maryland Physicians Care",
+      "canonicalPayer": "Maryland Physicians Care",
+      "payerGroup": "Medicaid / State",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "DEVOTED HEALTH",
+      "canonicalPayer": "Devoted Health",
+      "payerGroup": "Other Medicare Advantage",
+      "rowsAffected": 1,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "HERE HEALTH TRUST - UNITE HERE HEALTH TRUST AETNA POS",
+      "canonicalPayer": "Unite Here Health Trust Aetna POS",
+      "payerGroup": "Aetna",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "HIGHMARK",
+      "canonicalPayer": "Highmark",
+      "payerGroup": "Highmark",
+      "rowsAffected": 1,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "Health Option",
+      "canonicalPayer": "Health Options",
+      "payerGroup": "Health Options",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Healthfirst",
+      "canonicalPayer": "HealthFirst NY",
+      "payerGroup": "Health Options",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Highmark Blue Cross Blue Shield DE",
+      "canonicalPayer": "Highmark BCBS DE",
+      "payerGroup": "Highmark",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "HlthOpt MedicareDual",
+      "canonicalPayer": "Health Options Medicare Dual",
+      "payerGroup": "Health Options",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Humana Medicare Advantage",
+      "canonicalPayer": "Humana Medicare",
+      "payerGroup": "Humana",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "IPA MEDICARE ALT - IPA MDCR HMO INDEPENDENT CLINICS WA",
+      "canonicalPayer": "IPA Medicare Alt - Independent Clinics WA",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Jai",
+      "canonicalPayer": "Jai Medical Systems",
+      "payerGroup": "Jai Medical Systems",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Keycare Medicare Advantage",
+      "canonicalPayer": "Keycare Advantage",
+      "payerGroup": "Other Medicare Advantage",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Keystone",
+      "canonicalPayer": "Keystone First",
+      "payerGroup": "Keystone First",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "MOLINA COMMERCIAL - MOLINA WA MARKETPLACE IFP EXCHANGE HMO PPO",
+      "canonicalPayer": "Molina WA Marketplace",
+      "payerGroup": "Molina",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "MOLINA MEDICARE - MOLINA MDCR COMPLETE CARE WAMT",
+      "canonicalPayer": "Molina Medicare Complete Care",
+      "payerGroup": "Molina",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Medical Mutual",
+      "canonicalPayer": "Medical Mutual Ohio",
+      "payerGroup": "Other / Commercial",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Molina",
+      "canonicalPayer": "Molina Healthcare",
+      "payerGroup": "Molina",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "PREMERA - PREMERA PREFERRED",
+      "canonicalPayer": "Premera Preferred",
+      "payerGroup": "Premera",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "PREMERA PREFERRED",
+      "canonicalPayer": "Premera Preferred",
+      "payerGroup": "Premera",
+      "rowsAffected": 1,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "REGENCE- REGENCE BCBS WA POS",
+      "canonicalPayer": "Regence BCBS WA POS",
+      "payerGroup": "Regence",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Surest",
+      "canonicalPayer": "UHC Surest",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "TEAMSTERS WELFARE TRUST PREMERA PPO",
+      "canonicalPayer": "\u0081TEAMSTERS WELFARE TRUST PREMERA PPO",
+      "payerGroup": "Other / Commercial",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "UHC WEST MEDICAR",
+      "canonicalPayer": "UHC West Medicare",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "UHCCP-PA",
+      "canonicalPayer": "UHC Community Plan PA",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "UMR - UMR UHC PPO",
+      "canonicalPayer": "UMR",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "UNITED HEALTHCARE MEDICARE - UHC MDCR HMO COMMUNITY DUAL PLAN",
+      "canonicalPayer": "UHC Medicare",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "United Healthcare GEHA",
+      "canonicalPayer": "GEHA",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "United Healthcare Medicare Advantage",
+      "canonicalPayer": "UHC Medicare",
+      "payerGroup": "UnitedHealth Group",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "VA Perry Point Medical/Community care department",
+      "canonicalPayer": "VA Perry Point Medical",
+      "payerGroup": "Facility (not a payer)",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "WELLCARE HEALTH PLANS MEDICARE - WELLCARE MDCR HMO PPO",
+      "canonicalPayer": "Wellcare Medicare Advantage",
+      "payerGroup": "Wellcare",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "Well Care",
+      "canonicalPayer": "Wellcare",
+      "payerGroup": "Wellcare",
+      "rowsAffected": 1,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "WellPoint Maryland Inc",
+      "canonicalPayer": "Wellpoint Maryland Inc",
+      "payerGroup": "Wellpoint",
+      "rowsAffected": 1,
+      "changeType": "Spacing / capitalisation"
+    },
+    {
+      "aliasText": "Wellpoint MD",
+      "canonicalPayer": "Wellpoint Maryland Inc",
+      "payerGroup": "Wellpoint",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "`",
+      "canonicalPayer": "Unspecified \u2014 needs review",
+      "payerGroup": "Unspecified",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    },
+    {
+      "aliasText": "veterans admin",
+      "canonicalPayer": "Veterans Administration",
+      "payerGroup": "Veterans Affairs",
+      "rowsAffected": 1,
+      "changeType": "Judgement call \u2014 same payer"
+    }
+  ],
+  "tasks": [
+    {
+      "mattRef": "260606CCHS0012P24787963-1",
+      "payer": "Meritain Health",
+      "payerGroup": "Aetna",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "250806PROV0019P316004471650",
+      "payer": "BCBS Out-of-State PPO",
+      "payerGroup": "BCBS / Blue Cross",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "260312UMMS0004P000184587065",
+      "payer": "BCBS FEP",
+      "payerGroup": "BCBS / Blue Cross",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "251029UMMS0004P000141390478",
+      "payer": "BCBS FEP",
+      "payerGroup": "BCBS / Blue Cross",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "260329CCHS0010P26128273-1",
+      "payer": "Blue Cross",
+      "payerGroup": "BCBS / Blue Cross",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "250611LBGH0080P230001863904",
+      "payer": "Carefirst BCBS",
+      "payerGroup": "CareFirst",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "251220UMMS0006P000141575295",
+      "payer": "Carefirst BCBS",
+      "payerGroup": "CareFirst",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "260224UMMS0003P000161760227",
+      "payer": "Carefirst BCBS",
+      "payerGroup": "CareFirst",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "251121UMMS0134P000421356742",
+      "payer": "Carefirst Community Health Plan",
+      "payerGroup": "CareFirst",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "260212CCHS0009P25780656-1",
+      "payer": "Carefirst Community Health Plan",
+      "payerGroup": "CareFirst",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "260206UMMS0070P000184642560",
+      "payer": "Carefirst Community Health Plan",
+      "payerGroup": "CareFirst",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "260116LBGH0025PCM330001291861",
+      "payer": "Carefirst Medicare Advantage",
+      "payerGroup": "CareFirst",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "260212UMMS0024P000421311292",
+      "payer": "Carefirst Medicare Advantage",
+      "payerGroup": "CareFirst",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "251020LBGH0059PCM230001993679",
+      "payer": "Carefirst Medicare Advantage-DSNP",
+      "payerGroup": "CareFirst",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "251121LBGH0041PCM230002021917",
+      "payer": "Carefirst Medicare Advantage-DSNP",
+      "payerGroup": "CareFirst",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "250922CNMC0012P3005063985C580924954",
+      "payer": "Meritain",
+      "payerGroup": "Aetna",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "241217UMMS0005P000184116847",
+      "payer": "Optum Maryland",
+      "payerGroup": "Optum",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "240723UMMS0007P000161513186",
+      "payer": "Optum Maryland",
+      "payerGroup": "Optum",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "250708UMMS0003P000840386990",
+      "payer": "UMR",
+      "payerGroup": "UnitedHealth Group",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "250524CCHS0001P23005156-1",
+      "payer": "UMR",
+      "payerGroup": "UnitedHealth Group",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "240711UMMS0012P000183731184",
+      "payer": "UMR",
+      "payerGroup": "UnitedHealth Group",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "250425LBGH0037PCM330001236896",
+      "payer": "United Healthcare (UHC)",
+      "payerGroup": "UnitedHealth Group",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "240211SHBA0019P230001284115",
+      "payer": "United Healthcare (UHC)",
+      "payerGroup": "UnitedHealth Group",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    },
+    {
+      "mattRef": "260218LBGH0015P650004571898-1",
+      "payer": "United Healthcare (UHC)",
+      "payerGroup": "UnitedHealth Group",
+      "status": "Open",
+      "assignedTo": null,
+      "notes": null
+    }
+  ]
+}

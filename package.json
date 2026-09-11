@@ -15,6 +15,7 @@
     "prisma:deploy": "prisma migrate deploy",
     "prisma:studio": "prisma studio",
     "db:seed": "tsx prisma/seed.ts",
+    "db:import-call-log-history": "tsx scripts/import-call-log-history.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",

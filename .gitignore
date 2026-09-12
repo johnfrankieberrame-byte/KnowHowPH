@@ -1,7 +1,4 @@
 node_modules
-.next
-out
-build
 dist
 .env
 .env.local
@@ -9,8 +6,8 @@ dist
 npm-debug.log*
 .DS_Store
 *.tsbuildinfo
-next-env.d.ts
 coverage
-playwright-report
-test-results
-.vercel
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
